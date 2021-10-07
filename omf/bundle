@@ -1,0 +1,9 @@
+package config
+package https://github.com/blackjid/plugin-kubectl
+package https://github.com/oh-my-fish/plugin-archlinux.git
+package neovim
+package spark
+package weather
+theme agnoster
+theme bobthefish
+theme default
