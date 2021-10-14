@@ -14,6 +14,7 @@ Plug 'SirVer/ultisnips'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
+Plug 'deoplete-plugins/deoplete-jedi'
 
 call plug#end()
 
