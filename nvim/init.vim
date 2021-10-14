@@ -14,7 +14,9 @@ Plug 'SirVer/ultisnips'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
+Plug 'davidhalter/jedi-vim'
 Plug 'deoplete-plugins/deoplete-jedi'
+Plug 'vim-syntastic/syntastic'
 
 call plug#end()
 
@@ -41,6 +43,16 @@ set imsearch=0
 
 set timeoutlen=1000 ttimeoutlen=1
 
+" Syntastic
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " Use persistent history
 if !isdirectory("/tmp/.vim-undo-dir")
