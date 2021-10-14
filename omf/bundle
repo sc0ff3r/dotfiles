@@ -1,5 +1,6 @@
 package config
 package https://github.com/blackjid/plugin-kubectl
+package https://github.com/evanlucas/fish-kubectl-completions
 package https://github.com/oh-my-fish/plugin-archlinux.git
 package neovim
 package spark
